@@ -4,3 +4,7 @@ from django.shortcuts import render
 
 def Hey(request):
     return render(request,'htmlpage.html')
+
+def Log(request):
+    return render(request,'loginpage.html')
+
