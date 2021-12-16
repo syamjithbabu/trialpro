@@ -8,3 +8,5 @@ def Hey(request):
 def Log(request):
     return render(request,'loginpage.html')
 
+def Sign(request):
+    return render(request,'signup.html')

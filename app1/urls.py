@@ -5,5 +5,6 @@ app_name='app1'
 
 urlpatterns = [
     path('',views.Hey,name='hello'),
-    path('log',views.Log,name='loginpage')
+    path('log',views.Log,name='loginpage'),
+    path('sign',views.Sign,name='signup')
 ]
