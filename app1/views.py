@@ -10,3 +10,11 @@ def Log(request):
 
 def Sign(request):
     return render(request,'signup.html')
+
+def Home(request):
+    return render(request,'homepage.html')
+
+def Pay(request):
+    return render(request,'payment.html')    
+    
+

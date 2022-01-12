@@ -1,0 +1,117 @@
+.page1{
+    background-color: black;
+    background-size: cover;
+
+}
+
+.play{
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 15px;
+    background-color:white;
+    width: 10%;
+    border: 0;
+    padding: 15px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+h5{
+    font-weight: bold;
+    color: rgb(190, 184, 184);
+    align-items: justify;
+}
+
+p{
+    font-weight: bold;
+    color: rgb(190, 184, 184);
+    align-items: justify;  
+}
+
+body {
+    background-color: #f1eeff
+}
+
+.main-content {
+    background-color: #fdfdfe;
+    border-radius: 5px
+}
+
+.form-control {
+    height: 50px;
+    border: 2px solid #eee
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search {
+    height: 50px;
+    background-color: blue
+}
+
+.card {
+    border: 2px solid blue;
+    padding: 5px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card .score {
+    font-size: 10px
+}
+
+.card p {
+    font-size: 10px;
+    margin-top: 20px
+}
+
+body {
+    background-color: #f1eeff
+}
+
+.main-content {
+    background-color: #fdfdfe;
+    border-radius: 5px
+}
+
+.form-control {
+    height: 50px;
+    border: 2px solid #eee
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search {
+    height: 50px;
+    background-color: blue
+}
+
+.card {
+    border: 2px solid blue;
+    padding: 5px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card .score {
+    font-size: 10px
+}
+
+.card p {
+    font-size: 10px;
+    margin-top: 20px
+}
