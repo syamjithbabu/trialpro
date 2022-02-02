@@ -1,5 +1,5 @@
 .page1{
-    background: url(bgimage.jpg);
+    background: url(/static/images/bgimage.jpg);
     background-size: cover;
 }
 
