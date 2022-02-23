@@ -2,11 +2,11 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def Admin(request):
-    return render(request,'adminmainpage.html')
+# def Admin(request):
+#     return render(request,'adminmainpage.html')
 
-def Admlog(request):
-    return render(request,'admlogin.html')
+# def Admlog(request):
+#     return render(request,'admlogin.html')
 
 def Admhome(request):
     return render(request,'adminhome.html')

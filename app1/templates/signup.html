@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="/static/userpages/sign.css" rel="stylesheet">
-    <script src="/static/userpages/sign.js"></script>
-</head>
-<body>
+{% extends 'master.html' %}
+{% block content %}
+<section class="page1">
+
     <img src="/static/images/20211209_192521.png" width="160px">
     <div class="sign">
     <p>Sign Up</p>
-  <form action="/app1/templates/loginpage.html">
+  <form action="/app1/templates/homepage.html">
 <input type="text" id="name1" name="username" placeholder="First Name">
 <span id="name_err1"></span>
 <input type="text" id="name2" name="username" placeholder="Second Name">
@@ -24,5 +17,6 @@
 
 <button onclick="return sign()" class="signup">Sign Up</button>
 </form>
-</body>
-</html>
+</section>
+
+{% endblock %}
